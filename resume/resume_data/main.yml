@@ -1,0 +1,228 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jskherman/imprecv/main/cv.typ.schema.json
+
+personal:
+  firstName: / Hans Gabriel
+  lastName: / De Vera
+  email: / hansgabr001@e.ntu.edu.sg -> REDACT_EMAIL
+  phone: / (+65) 80836578 -> REDACT_PHONE
+  url: / https://bit.ly/gabeedevera -> REDACT_LINK
+  # titles:
+  #   - Math & CS @ NTU | IOI HM, ICPC Regional Bronze | Competitive Programmer & Technical Educator
+  # location:
+  #   region: / Jurong West -> Singapore
+  #   country: Singapore
+  profiles:
+    - network: LinkedIn
+      username: / Hans Gabriel (Gabee) De Vera -> REDACT_USER
+      url: / https://linkedin.com/in/hans-gabriel-de-vera/ -> REDACT_LINK
+    - network: GitHub
+      username: / Gabee De Vera
+      url: / https://github.com/GabeeDeVera -> REDACT_LINK
+
+education:
+  - institution: Nanyang Technological University, Singapore
+    url: https://www.ntu.edu.sg/
+    area: Mathematical and Computer Sciences
+    studyType: Bachelor of Science
+    startDate: 2025-08-11
+    endDate: 2029-05-30
+    # location: Jurong West, Singapore
+    honors:
+      - 4.98 CGPA
+      - Dean's List for Year 1 (Under both mathematics and computing schools)
+    courses:
+    - Linear Algebra II (A+)
+    - Calculus II (A+)
+    - Algorithms & Data Structures (A+)
+    #   - Algorithms & Data Structures
+    #   - Applications in Quantitative Finance
+    #   - Engineering Data Analysis
+    #   - Compiler Architecture
+    highlights:
+    #   - "*Thesis*: A convolutional neural network for predicting Greenland glacier melt and glacial water flow"
+    #   - "*Activities*: Debating, Chess, Cricket"
+  
+  - institution: Philippine Science High School - Main Campus (PSHS-MC)
+    url: https://mc.pshs.edu.ph/
+    area: STEM
+    studyType: High School Diploma
+    startDate: 2019-08-11
+    endDate: 2025-05-27
+    # location: Quezon City, Philippines
+    honors:
+      - Highest Honors
+      - Best in Math and CS Awards
+    courses:
+    # g10 was "information technology industry", might be a bit interesting to mention
+    # g11 was Physics (mechanics and electromag) and CS
+    # g12 was Physics (calculus and data analytics for physics, forgot the actual name po) and Chemistry (Organic Chemistry)
+    highlights:
+    # 
+
+work:
+  - organization: National Olympiad in Informatics, Philippines (NOI.PH)
+    url: https://noi.ph
+    location: Remote / Philippines
+    positions:
+      - position: International Olympiad in Informatics (IOI) Training Director
+        startDate: 2025-05-01
+        endDate: 2025-08-10
+        highlights:
+          - Directed a 3-month long training program for the Philippine IOI team, curating problem sets covering dynamic programming, data structures, and graph algorithms, and providing technical mentorship and moral support, leading to a historic first IOI gold medal
+  - organization: Achieve Without Borders, Inc.
+    url: https://achievewithoutborders.com/
+    location: Remote / Philippines
+    positions:
+      - position: Software Development Intern
+        startDate: 2023-06-23
+        endDate: 2023-07-07
+        highlights:
+          - Developed a full-stack proof-of-concept software application with Dart, Flask, and Odoo within two weeks, refining my ability to efficiently learn a new framework within a limited timeframe
+
+affiliations:
+  - organization: Pisay Competitive Programming Competition (PCPC)
+    position: Founding Overall Head (2023-2024), Overall Co-head (2024-2025)
+    # location: Quezon City, Philippines
+    url:
+    startDate: 2023-06-01
+    endDate: 2025-05-27
+    highlights:
+      - Led first iteration of a national team-based programming contest for Filipino high-schoolers, increasing participation from 23 to 75 students while orchestrating a team of 15-20 students  
+  - organization: Reboot
+    position: Overall Co-head (2023-2024), Overall Head (2024-2025)
+    # location: Quezon City, Philippines
+    url: / https://gabeedevera.github.io/reboot-materials/ -> REDACT_LINK
+    startDate: 2023-06-01
+    endDate: 2025-05-27
+    highlights:
+      - "Directed a school-wide competitive programming training pool, contributing to 8 students placing in top 20 of the 2025 NOI.PH National Eliminations"
+
+awards:
+  - title: "International Collegiate Programming Contest 2025, Manila Regional (Bronze, 7th)"
+    date: 2025-12-10
+    # issuer: Ateneo De Manila University
+    # location: Quezon City, Philippines
+    highlights:
+      - "Attained 7th place in collaboration with two teammates on C++ programming challenges, achieving bronze"
+  - title: "International Olympiad in Informatics (IOI) 2025 (Honorable Mention)"
+    startDate: 2025-07-27
+    endDate: 2025-08-03
+    # issuer: IOI General Assembly
+    # location: Sucre, Bolivia
+    highlights:
+      - "Devised C++ solutions for ad-hoc programming challenges in five hours, attaining an Honorable Mention"
+      # - "Recovered from day one performance with renewed focus to tackle ad-hoc programming challenges, achieving an honorable mention for scoring in the top half of contestants in day two"
+  - title: "Asia-Pacific International Olympiad (APIO) 2025 (Bronze Medalist)"
+    date: 2025-05-18
+    # issuer: APIO Organizing Committee
+    # location: Uzbekistan
+    highlights:
+      - "Utilised skills in olympiad-level combinatorics to solve nonstandard problems with C++, earning a bronze medal"
+  - title: "Philippine Physics Olympiad 2025 (Bronze Medalist)"
+    date: 2025-03-18
+  - title: "Singapore International Mathematical and Computational Challenge 2024"
+    date: 2024-05-18
+    # issuer: NUS High School
+    url: https://github.com/GabeeDeVera/simc-2024-submission
+    # location: Clementi, Singapore
+    highlights:
+      - "Co-authored a technical machine learning paper within a 24-hour time constraint on sparse signal detection of 100000 25px by 25px grayscale images with a k-means clusterer using an entropy maximization heuristic with Python, Sklearn, and Numpy, placing top 10 and receiving a special award in creativity"
+
+certificates:
+  - name: "Google AI Professional Certificate"
+    date: 2025-08-03
+    issuer: Coursera
+    url: / https://www.credly.com/go/rlA05A6j -> REDACT_LINK
+    id: / "https://www.credly.com/go/rlA05A6j" -> REDACT_LINK
+  # - name: "Learning How to Learn: Powerful mental tools to help you master tough subjects"
+  #   date: 2021-09-01
+  #   issuer: Coursera
+  #   url: https://example.com
+  #   id: "1MPR3CVR3SUM3"
+
+publications:
+#   - name: A convolutional neural network for predicting Greenland glacier melt and glacial water flow
+#     publisher: Theoretical and Computational Fluid Dynamics
+#     releaseDate: 2020-09-30
+#     url: https://example.com
+
+personal_projects:
+  - name: "Verilog Computer"
+    url: / https://github.com/GabeeDeVera/verilog-computer/tree/main -> REDACT_LINK
+    affiliation: Nanyang Technological University, Singapore
+    startDate: 2025-11-01
+    endDate: 2025-11-03
+    highlights:
+      - Programmed a computer using Icarus Verilog and designed a custom assembly language and assembler, solidifying my understanding of the concepts presented in NTU's Digital Logic course
+  - name: "Generative Adversarial Network for Generating Anime Character Faces"
+    url: / https://github.com/GabeeDeVera/anime-gan-source-code -> REDACT_LINK
+    startDate: 2022-06-01
+    endDate: 2022-07-01
+    highlights:
+      - Researched and implemented Generative Adversarial Networks (GANs) using Python with Tensorflow over the summer, improving my research and self-study skills
+  - name: "Planks and Flanks"
+    url: / https://github.com/GabeeDeVera/planks-and-flanks/tree/master -> REDACT_LINK
+    startDate: 2021-04-03
+    endDate: 2021-04-04
+    highlights:
+      - Developed a full-stack multiplayer game with JavaScript, Node.JS, and Socket.io within two days, enhancing my ability to integrate algorithms knowledge with full-stack development
+
+academic_projects:
+  - name: "Algorithm Design and Analysis Project - Runtime Analysis and Hyperparameter Tuning of Hybrid Sort"
+    url: / https://github.com/GabeeDeVera/hybrid-sort-hyperparameter-analysis/tree/main -> REDACT_LINK
+    affiliation: Nanyang Technological University, Singapore
+    startDate: 2026-09-04
+    endDate: 2026-09-18
+    highlights:
+      - Modeled runtime behavior of hybrid sort and applied unconstrained continuous optimization techniques, resulting in a general theoretical model for optimizing runtime of hybrid sort 
+      - Performed a two-variable regression analysis using a custom gradient descent pipeline in Python and TensorFlow inspired by machine learning techniques to compute optimal hybrid sort hyperparameter values over a dataset of empirical runtime data, decreasing sorting time by 7.6% for arrays with 10 million elements
+      - Wrote a 10-slide strong induction proof of the optimality of some set of hyperparameter values, providing theoretical airtightness in the analysis
+  - name: "Introduction to Computational Thinking & Programming Project - Simulated Annealing Team Allocator"
+    url: / https://github.com/GabeeDeVera/simulated-annealing-team-allocator/tree/main -> REDACT_LINK
+    affiliation: Nanyang Technological University, Singapore
+    startDate: 2025-10-15
+    endDate: 2025-11-23
+    highlights:
+      - Reformulated diverse team allocation as a discrete computational optimization problem over a constructed feature space and applied Simulated Annealing in Python on 6000 rows of student educational records to achieve groupings with near-mathematically-optimal diversity
+      - Proved that the formulated optimization problem is in NP-hard (nondeterministic polynomial time---hard), rigorously supporting the use of heuristic methodologies
+
+skills:
+  - category: Programming Languages
+    skills:
+      - C++
+      - Python
+      - Dart
+      - JavaScript
+  - category: Libraries and Frameworks
+    skills:
+      - Sklearn
+      - Numpy
+      - Tensorflow
+      - Flask
+      - Node.JS
+      # - LaTeX
+      # - Typst
+
+languages:
+  - language: English
+    fluency: Native speaker
+  - language: Filipino/Tagalog
+    fluency: Native speaker
+
+interests:
+  - Minecraft city planning and transit design
+  - anime
+  - rhythm gaming
+  - train enthusiast
+  - improvisational piano
+  - blog writing
+  - karaoke
+  - memorizing maps and transit diagrams
+
+references:
+  # You can comment out the entries below if you don't have any references
+  # The same goes for the publications
+
+  # - name: Dr. Jane Austin
+  #   reference: John was a great student. He was always eager to learn new things and was very passionate about his studies. As his mentor, I am proud to say that he was also a great leader and was able to lead his team to victory in the 2020 SCG Bangkok Business Challenge Global Competition.
+  #   url: https://janeaustin.com
