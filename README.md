@@ -4,6 +4,8 @@ A version control system and compiler for my resume.
 
 This repository contains the *public-facing* code for my resume compiler. In particular, details that fall under some form of NDA have been redacted. This repository is purely for demonstration purposes
 
+See the sample output resume [here](resume/compiler_outputs/resume.pdf). See the redacted resume [here](resume/compiler_outputs/resume_redacted.pdf).
+
 I use jskherman's [imprecv](https://github.com/jskherman/imprecv), customized to match the formatting standards of the Nanyang Technological University (NTU) Community Template.
 
 Like imprecv, this resume generator uses YAML to facilitate version control. I have added YAML post-processors to facilitate information redaction for feeding into LLMs or other online systems for automated feedback. Hence, the YAML used to write the resume is a modified version from the original that enables polymorphic compilation results.

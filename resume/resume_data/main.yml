@@ -153,7 +153,7 @@ personal_projects:
     startDate: 2026-09-01
     endDate: 2026-09-23
     highlights:
-      - Developed a YAML to PDF compilation pipeline, facilitating version control and rapid iteration of resumes
+      - Developed a YAML to PDF compilation pipeline with customized YAML semantics using Python and Typst, facilitating version control, anonymization, and rapid iteration of resumes
   - name: "Verilog Computer"
     url: / https://github.com/GabeeDeVera/verilog-computer/tree/main -> REDACT_LINK
     affiliation: Nanyang Technological University, Singapore
