@@ -1,8 +1,8 @@
-# Gabee's Resume Compiler
+# Gabee's Resume Generator
 
-A version control system and compiler for my resume.
+A version control system and build tool for my resume.
 
-This repository contains the *public-facing* code for my resume compiler. In particular, details that fall under some form of NDA have been redacted. This repository is purely for demonstration purposes
+This repository contains the *public-facing* code for my resume generator. In particular, details that fall under some form of NDA have been redacted. This repository is purely for demonstration purposes.
 
 See the sample output resume [here](resume/compiler_outputs/resume.pdf). See the redacted resume [here](resume/compiler_outputs/resume_redacted.pdf).
 
